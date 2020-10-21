@@ -13,3 +13,7 @@ lazy val root = (project in file("."))
           Libraries.scalaTest
         )
   )
+
+scalacOptions ++= Seq(
+  "-language:postfixOps"
+)
